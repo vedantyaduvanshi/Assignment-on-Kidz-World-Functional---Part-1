@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error(`Element with ID ${itemId} not found.`);
           }
         }
+          window.open("https://api.whatsapp.com/send/?phone=12345678901&text&type=phone_number&app_absent=0")
         // Here, you can also calculate the total amount based on the items and their quantities if needed.
       }
       
